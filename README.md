@@ -1,5 +1,4 @@
 # SpaceX
-live-site  
 
 ## Introduction
 
@@ -21,3 +20,8 @@ This README file provides essential information about the project, including its
 
    ```bash
      https://github.com/nati673/SpaceX.git
+   
+live-site 
+
+ ```bash
+     https://nati673.github.io/SpaceX/
