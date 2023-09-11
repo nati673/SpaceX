@@ -1,3 +1,4 @@
+/* Define custom fonts for the web page */
 @font-face {
     font-family: D-DIN-Bold;
     src: url('fonts/d-din/D-DIN-Bold.otf');
@@ -6,22 +7,26 @@
     font-family: D-DIN-Regular;
     src: url('fonts/d-din/D-DIN.otf');
 }
-
+/* Reset default margins and padding for HTML and body elements */
 html, body{
     margin: 0;
     padding: 0;
 }
+/* Set background color, text color, and font family for the entire page */
 body{
     background-color: #000;
     color:#fff;
     font-family: D-DIN-Bold,Arial,Verdana,sans-serif;
 }
+/* Style anchor (link) elements */
 a{
     color: #fff;
 }
 svg{
     fill: #fff;
 }
+
+/* Style the header of the page */
 header{
     display: flex;
     align-items: center;
@@ -42,6 +47,7 @@ header a.logo{
     left: 50%;
     margin-left: -70px;
 }
+/* Media query for screens with a minimum width of 1000px */
 @media (min-width: 1000px) {
     header svg{
         width: 200px;
@@ -58,6 +64,7 @@ header a.logo{
 .center-nav{
     display:none;
 }
+/* Media query for screens with a minimum width of 1000px */
 @media (min-width: 1000px) {
     .center-nav{
         display:block;
